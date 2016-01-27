@@ -21,8 +21,10 @@ def divide(num):
     else: continue #etc
     
 #Take this list and run it through another loop?
-#Is this a case where nested loops is appropriate? http://www.tutorialspoint.com/python/python_nested_loops.htm
-
+"""
+Is this a case where nested loops is appropriate? http://www.tutorialspoint.com/python/python_nested_loops.htm
+what about "for" vs "while"?
+"""
 
 #How can you make this loop until no more numberes other than 1, 2, 3, 5, and 7 exist?
 #Will have to count number of times each of these numbers (other than one?) occur
