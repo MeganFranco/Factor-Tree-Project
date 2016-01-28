@@ -1,3 +1,5 @@
 while num > 3 and num != 5 and num !=7:
     #inner loop here
 return dictonary #or list?
+
+# Remember the importance of a counter to break the loop (just in case)
