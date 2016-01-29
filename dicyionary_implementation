@@ -1,0 +1,33 @@
+#need two loops one to initialize than another through the list?
+#http://www.tutorialspoint.com/python/python_nested_loops.htm
+num = int(raw_input("Enter number: "))
+
+#if you make the primes a dictionary, then you can count the 
+# of times a 2, 3, 5, or 7 occurs
+primes = {
+    2:0,
+    3:0,
+    5:0,
+    7:0    
+}
+
+total = 0
+
+count = 0
+while num > 0:
+    
+    
+    count = count + 1
+    if count > 10: 
+        break  
+
+
+#The Counter idiom from Python for Informatics
+def histogram(s):
+    d = dict()
+    for c in s:
+        if c not in d:
+            d[c] = 1
+        else:
+            d[c] = d[c] + 1
+    return D
